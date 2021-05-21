@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - run: |
-          dir C:/Rust/Cargo
+          dir C:/Rust/.cargo
           dir ~/.cargo/
           echo %CARGO_HOME%
